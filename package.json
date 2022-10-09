@@ -1,0 +1,32 @@
+{
+  "name": "react-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "*",
+    "@chakra-ui/react": "^2.3.2",
+    "@mdi/js": "*",
+    "@mui/material": "*",
+    "@web3-react/core": "*",
+    "@web3-react/injected-connector": "*",
+    "@web3-react/walletconnect-connector": "*",
+    "@web3-react/walletlink-connector": "*",
+    "ethers": "*",
+    "next": "12.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "web3": "*",
+    "web3-eth-ens": "^1.7.5",
+    "web3-utils": "^1.7.5"
+  },
+  "devDependencies": {
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.3.0"
+  }
+}
